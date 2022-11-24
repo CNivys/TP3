@@ -13,5 +13,5 @@ elif type == "while":
         fact = fact * nb
         nb = nb - 1
         print(fact)
-    print("{}! = {}".format(n,fact))
+    print("{}! = {}".format(n, fact))
 
