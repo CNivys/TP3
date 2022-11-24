@@ -22,7 +22,7 @@ else:
 h-=1
 phaut += 2 * j
 ptotal = phaut + h
-
+print("Vous avez loué votre vélo pendant")
 print("{} heure(s) au tarif horaire de 1.0 euro(s)".format(h))
 print("{} heure(s) au tarif horaire de 2.0 euro(s)".format(j))
 print("Le montant total à payer est de {} euro(s).".format(ptotal))
