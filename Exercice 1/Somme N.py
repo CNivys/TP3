@@ -1,6 +1,6 @@
 n = int(input("Saisir un nombre : "))
-
-for i in range(0, n):
-    nb = n + i
+nb = 0
+for i in range(0, n+1):
+    nb += i
 
 print(nb)

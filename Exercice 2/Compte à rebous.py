@@ -1,7 +1,6 @@
-n = int(input("Saisir un nombre"))
-tab = []
-for i in range(n+1):
-    tab.append(i)
-    tab.sort(reverse=True)
+import time
 
-print(tab)
+n = int(input("Saisir un nombre"))
+for i in range(n,-1,-1):
+    print(i)
+    time.sleep(0.2)
